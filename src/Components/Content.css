@@ -1,0 +1,72 @@
+.recommed {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.topsongs {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.r1 {
+  padding: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.Sticky {
+  position: sticky !important;
+  bottom: 0;
+  padding: 10px;
+}
+.Audiolist {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+/* audio::-webkit-media-controls-panel,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-see {
+  background-color: black;
+  color: white !important;
+} */
+
+.videocontent {
+  justify-content: space-around !important;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 1000px) {
+  .recommed {
+    justify-content: space-between;
+    text-align: center;
+  }
+  .topsongs {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .content {
+    padding-left: 30px;
+    justify-content: flex-start;
+  }
+}

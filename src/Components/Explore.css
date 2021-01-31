@@ -1,0 +1,12 @@
+.Title {
+  color: white !important;
+}
+.Explorenewrelease {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+.Release {
+  padding: 10px;
+}
